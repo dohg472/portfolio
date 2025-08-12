@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>이동준 | 포트폴리오</title>
+
+  <!-- Tailwind 2.x CDN -->
+  <script src="https://cdn.tailwindcss.com?v=2"></script>
+
+  <!-- Fonts -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap"/>
+
+  <!-- Custom style -->
+  <style>
+    body{font-family:'Noto Sans KR','Inter',sans-serif;background:#111827;color:#F3F4F6}
+    .font-inter{font-family:'Inter',sans-serif}
+    .gradient-text{background:linear-gradient(to right,#38bdf8,#818cf8);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    .card{background:#1F2937;border:1px solid #374151;transition:transform .3s,box-shadow .3s;display:flex;flex-direction:column}
+    .card:hover{transform:translateY(-5px);box-shadow:0 10px 15px -3px rgba(56,189,248,.1),0 4px 6px -2px rgba(56,189,248,.05)}
+    .tag{background:#374151;color:#E5E7EB}
+    .project-image{width:100%;height:auto;object-fit:cover}
+    @media (min-width:768px){.project-image{width:40%;flex-shrink:0}}
+  </style>
+</head>
+
+<body class="antialiased">
+
+  <!-- ▣ HERO -->
+  <header class="container mx-auto px-6 py-24 md:py-32 text-center">
+    <h1 class="text-4xl md:text-6xl font-black font-inter tracking-tight">
+      <span class="gradient-text">이동준</span>
+    </h1>
+    <p class="mt-4 text-2xl md:text-3xl font-bold text-gray-200">About Me</p>
+    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-400 text-left">
+      6년 이상 콘텐츠 프로듀서로 활동하며 프로젝트 전체 사이클을 주도하고, 누적 4,000만 뷰 이상의 성공적인 IP를 만들어온 경험을 보유하고 있습니다.
+      그 과정에서 겪은 다양한 변화와 도전들은 언제나 제게 새로운 영역에 도전할 수 있는 동력을 주었습니다.
+      특히 익숙한 영역에 머무르기보단 빠른 적응력과 배움을 두려워하지 않는 자세로 늘 새로운 기회를 찾아왔으며,
+      이는 저의 가장 큰 강점이자 성장의 기반이었습니다.<br><br>
+      이제 익숙한 영역을 넘어 새로운 분야로의 전환을 통해 더 큰 성장을 경험하고자 합니다.
+      빠른 적응력과 배움을 두려워하지 않는 자세로, 변화하는 조직에서 실질적인 성과를 만들어내는 동료가 되겠습니다.
+    </p>
+  </header>
+
+  <main class="container mx-auto px-6 pb-24">
+
+    <!-- ▣ 핵심 역량 -->
+    <section id="about" class="mb-20">
+      <h2 class="text-3xl font-bold text-center mb-12">핵심 역량</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- 4개 카드 -->
+        <div class="card p-8 rounded-xl text-center">
+          <div class="text-sky-400 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto">
+              <path d="M5 13L3 21l8-2m0 0l11-11a4 4 0 0 0-6-6L5 13zm8-8l4 4"/>
+              <path d="M9 15l4 4m-1 5l-3 3m5-1l1 1m-7-7l1 1"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">프로젝트 리딩 및 성과 창출</h3>
+          <p class="text-gray-400 text-left">A to Z 총괄 경험을 바탕으로 대형 프로젝트를 리딩하고, 4천만 뷰 달성 등 가시적인 성과를 만들어냈습니다.</p>
+        </div>
+
+        <div class="card p-8 rounded-xl text-center">
+          <div class="text-sky-400 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto">
+              <path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20V16"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">데이터 기반 성과 개선</h3>
+          <p class="text-gray-400 text-left">데이터 기반의 OKR을 설계하고, 내부 목표 시청 시간(OKR)을 130% 초과 달성하는 등 지속적인 성과 개선 경험이 있습니다.</p>
+        </div>
+
+        <div class="card p-8 rounded-xl text-center">
+          <div class="text-sky-400 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-2">원활한 협업 및 조율</h3>
+          <p class="text-gray-400 text-left">다수의 제작사, 플랫폼 등 내/외부 이해관계자와의 원활한 커뮤니케이션으로 성공적인 협업을 이끌어냅니다.</p>
+        </div>
+
+        <div class="card p-8 rounded-xl text-center">
+          <div class="text-sky-400 mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-auto">
+              <line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/>
+              <line x1="15" y1="13" x2="15.01" y2="13"/><line x1="18" y1="11" x2="18.01" y2="11"/>
+              <path d="M19 17a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h14z"/>
+            </svg>
+          </div>
+      </div>
+    </section>
+
+    <!-- ▣ 주요 프로젝트 -->
+    <section id="projects">
+      <h2 class="text-3xl font-bold text-center mb-12">주요 프로젝트</h2>
+      <div class="grid grid-cols-1 gap-12">
+
+        <!-- 1 트웬티 트웬티 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/tw.webp" alt="[이미지: 트웬티 트웬티]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">트웬티 트웬티</h3>
+                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+            </div>
+            <!-- ─ 본문 그대로 ─ -->
+            <div class="text-sm space-y-4">
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">기획 및 개발</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>20대 타겟 리서치 및 심층 인터뷰를 통해 '바운더리' 키워드 도출, 중심 테마로 스토리 기획</li>
+                  <li>세부 에피소드에 타깃 공감 키워드를 전략적으로 활용하여 콘텐츠 현실성 및 공감도 향상</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">프리프로덕션</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>전략적 캐스팅, 오디션 프로세스를 통해 최적의 출연진 선정</li>
+                  <li>촬영 장소 선정 및 계약을 효율적으로 진행하여 예산 절감 및 현장 운영 최적화</li>
+                  <li>방송국(JTBC) 협력 구조 설정 및 편성 슬롯 조율, 간접광고(PPL) 계약 추진</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">프로덕션 및 마케팅</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>촬영 일정 및 현장 운영 계획 수립, 효율적인 리소스 관리</li>
+                  <li>공식 굿즈 기획/제작</li>
+                  <li>OST 기획/섭외를 통해 추가 수익 창출 및 작품 완성도 증대</li>
+                  <li>주연 6인 인스타그램 개설 및 실시간 운영으로 작품 몰입감 증대</li>
+                  <li>시청자 참여형 이벤트 진행으로 팬덤 강화</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>웹 누적 조회수 <span class="font-bold text-white">4,000만 뷰</span> 달성</li>
+                <li>JTBC 방영, 토/일 드라마 화제성 <span class="font-bold text-white">3위</span> 및 TV 드라마 화제성 <span class="font-bold text-white">7위</span> 기록</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 약한영웅 Class 1 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/weak.webp" alt="[이미지: 약한영웅 Class 1]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">약한영웅 Class 1</h3>
+                <p class="text-sky-400 font-semibold">제작실장</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+            </div>
+            <!-- ─ 본문 그대로 ─ -->
+            <div class="text-sm space-y-4">
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">기획 및 개발</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>최종 기획 단계에 합류하여, 스토리 완성도를 높이기 위한 대본 검수 및 전략적 피드백 수행</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">프리프로덕션</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>전체 프로젝트 예산 수립 및 예산안 운용 전략 수립</li>
+                  <li>주연급 배우 및 주요 스태프 계약 진행 및 관리</li>
+                  <li>촬영 장소 선정 및 관련 비용 협상, 계약 진행을 통한 예산 절감</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">프로덕션</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>프로세스 안정화를 위해 네이버 정산 시스템과 웨이브 간의 재무적 협력 파이프라인 구축</li>
+                  <li>예산 집행 계획 수립 및 관리, 리스크 최소화를 위한 지속적인 재정 모니터링 실시</li>
+                  <li>추가 촬영지 및 출연진 계약 체결 업무를 신속하게 진행하여 프로젝트 진행 지연 방지</li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-200 mb-2">포스트프로덕션 및 방영 후</h4>
+                <ul class="list-disc list-inside space-y-1 text-gray-400">
+                  <li>제27회 부산국제영화제 공식 초청작 선정, 부국제 약한영웅 부스 및 현장 관리</li>
+                  <li>영화제 현장 공식 프로모션 및 인터뷰 진행</li>
+                  <li>CGV 단독 시사회 운영</li>
+                  <li>시청자 참여 이벤트 기획 및 성과 분석으로 팬덤 강화</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>공개 당시 플랫폼 내 점유율 <span class="font-bold text-white">45.5%</span>, 화제성 <span class="font-bold text-white">3주 연속 1위</span> 달성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 한입만 시즌2 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/one.webp" alt="[이미지: 한입만 시즌 2]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">한입만 시즌 2</h3>
+                <p class="text-sky-400 font-semibold">메인 PD</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">SITCOM</span>
+            </div>
+            <!-- ─ 본문 그대로 ─ -->
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>프로젝트 총괄</li>
+                <li>유튜브 데이터 리서치를 통해 '먹방', '시트콤 하이라이트' 키워드를 도출, 신규 IP 기획</li>
+                <li>제작 예산 편성, 집행 및 손익 관리</li>
+                <li>작품에 맞는 캐릭터 개발, 굿즈 기획 및 제작</li>
+                <li>OST 기획/섭외를 통해 추가 수익 창출 및 작품 완성도 증대</li>
+                <li>촬영 및 후반 작업 등 전체 제작 스케줄 관리 및 현장 운영</li>
+                <li>갑작스러운 배우 교체 등 돌발 이슈 발생 시 신속한 대응 및 문제 해결</li>
+                <li>시청자 참여 이벤트 기획 및 성과 분석으로 팬덤 강화</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>플레이리스트 최초의 시트콤 장르 드라마 런칭 성공</li>
+                <li>에피소드 당 평균 <span class="font-bold text-white">172만회</span> 조회수 달성</li>
+                <li>모든 에피소드 유튜브 조회수 <span class="font-bold text-white">140만뷰</span> 이상 기록</li>
+                <li>배우 교체 이슈에도 안정적인 프로젝트 관리로 리스크 최소화</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 NPOP -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/npop.png" alt="[이미지: NPOP]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">NPOP</h3>
+                <p class="text-sky-400 font-semibold">PD</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">ENTERTAINMENT</span>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>신규 K-POP 예능 콘텐츠 기획</li>
+                <li>매 회차 대본 구성 및 촬영 일정 조율</li>
+                <li>제작 예산 관리, 집행 및 정산</li>
+                <li>출연 아티스트 및 스태프 계약, 현장 커뮤니케이션 담당</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>팬덤의 높은 호응 및 긍정적 바이럴 형성</li>
+                <li>평균 조회수 30만회 달성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 돌들의침묵 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/doll.webp" alt="[이미지: 돌들의침묵]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">돌들의침묵</h3>
+                <p class="text-sky-400 font-semibold">PD</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">ENTERTAINMENT</span>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>K-POP 아티스트 예능 콘텐츠 아이템 기획 및 대본 구성</li>
+                <li>제작 예산 관리, 집행 및 정산</li>
+                <li>출연 아티스트 및 스태프 계약, 현장 커뮤니케이션 담당</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>채널의 대표 포맷으로 자리매김하며 높은 팬덤 충성도 확보</li>
+                <li>평균 조회수 80만회 달성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 내리겠습니다 지구에서 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/my.webp" alt="[이미지: 내리겠습니다 지구에서]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">내리겠습니다 지구에서</h3>
+                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>45부작 장편 프로젝트 총괄</li>
+                <li>프로젝트 지속성을 위한 장편 시리즈 기획</li>
+                <li>초저예산 환경에서의 제작 예산 편성, 효율적 집행 및 관리</li>
+                <li>기획, 계약, 현장 운영 등 제작 전반 관리</li>
+                <li>효율적인 예산 집행 및 스케줄 관리를 통해 프로젝트 안정적 완수</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>초저예산 프로젝트임에도 불구하고, 내부 목표 시청 시간(OKR) <span class="font-bold text-white">130%</span> 초과 달성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 크리스마스가 싫은 네가지 이유 -->
+        <div class="card rounded-xl overflow-hidden md:flex-row">
+          <img src="https://dohg472.github.io/img/reason.webp" alt="[이미지: 크리스마스가 싫은 네가지 이유]" class="project-image"/>
+          <div class="p-6 flex flex-col justify-center text-left">
+            <div class="flex justify-between items-start mb-4 w-full">
+              <div>
+                <h3 class="text-2xl font-bold">크리스마스가 싫은 네가지 이유</h3>
+                <p class="text-sky-400 font-semibold">CP (총괄 프로듀서)</p>
+              </div>
+              <span class="tag whitespace-nowrap text-sm font-medium px-3 py-1 rounded-full">DRAMA</span>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 담당 업무</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>프로젝트 총괄</li>
+                <li>연말 가장 큰 이벤트인 크리스마스를 활용하여 신규 IP 기획 및 편성</li>
+                <li>제작 예산 편성, 집행 및 관리</li>
+                <li>전체 제작 스케줄 및 현장 운영 조율</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4 class="font-semibold text-gray-200 mb-2">주요 성과</h4>
+              <ul class="list-disc list-inside text-gray-400 space-y-1 text-sm">
+                <li>크리스마스 시즌 공감 콘텐츠로 에피소드 당 평균 <span class="font-bold text-white">98만회</span> 조회수 달성</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- grid -->
+    </section>
+
+    <!-- ▣ 보유 기술 -->
+    <section id="skills" class="mt-20">
+      <h2 class="text-3xl font-bold text-center mb-12">보유 기술 및 협업 툴</h2>
+      <div class="max-w-4xl mx-auto bg-gray-800 rounded-xl p-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div><p class="font-bold text-lg">MS Office</p><p class="text-gray-400">Excel, PPT, Word</p></div>
+          <div><p class="font-bold text-lg">한컴</p><p class="text-gray-400">HWP</p></div>
+          <div><p class="font-bold text-lg">Google Workspace</p><p class="text-gray-400">Drive, Docs, Sheets</p></div>
+          <div><p class="font-bold text-lg">협업 툴</p><p class="text-gray-400">Notion, Slack</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ▣ 푸터 -->
+  <footer class="bg-gray-900 border-t border-gray-700 mt-20">
+    <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+      <p class="text-lg font-semibold text-white">Contact</p>
+      <div class="mt-4">
+        <a href="mailto:dohg1@naver.com" class="hover:text-sky-400 transition-colors">dohg1@naver.com</a>
+        <span class="mx-2">|</span>
+        <a href="tel:010-7468-0219" class="hover:text-sky-400 transition-colors">010-7468-0219</a>
+      </div>
+      <p class="mt-8 text-sm">&copy; 2025 Dongjun Lee. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
